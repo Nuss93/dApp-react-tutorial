@@ -1,5 +1,5 @@
-const Contacts = artifacts.require("Contacts");
+const MasoomContract = artifacts.require("MasoomContract");
 
 module.exports = function(deployer) {
-    deployer.deploy(Contacts);
+    deployer.deploy(MasoomContract);
 }
